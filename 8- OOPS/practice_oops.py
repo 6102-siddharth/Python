@@ -25,3 +25,6 @@ class Students:
 
 s1=Students("Siddhu",[80,88,89])
 s1.get_avg()
+
+s1.name1 = "Siddhu"     #To Update a value
+s1.get_avg()
