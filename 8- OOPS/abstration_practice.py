@@ -26,3 +26,5 @@ acc1=Account(10000,9087564312)
 acc1.debit(1000)
 
 acc1.credit(500)
+acc1.credit(40000)
+acc1.debit(10000)
