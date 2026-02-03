@@ -1,3 +1,4 @@
+# Variable: A variable is a name given to a memory Location
 name = input("Enter Your Name:")
 print("Welcome ",name)
 
@@ -20,3 +21,4 @@ print("Division:",div)
 
 mod=a%b
 print("Modulus:",mod)
+
