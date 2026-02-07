@@ -14,4 +14,20 @@ else:
    print("End")
 
 
+print("*****************************************************")
+# Basic
+for i in range(10):
+   print(i)
 
+# Medium with ending point
+print("*****************************************************")
+
+for j in range(1,20):
+   print(j)
+
+   
+print("*****************************************************")
+
+# For loop by giving steps
+for k in range(2,101,2):
+   print(k)
