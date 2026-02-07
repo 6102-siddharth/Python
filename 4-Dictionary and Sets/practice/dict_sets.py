@@ -39,6 +39,7 @@ print(marks)
 values={9,"9.0"}
 print(values)
 
+# Method 2:
 values={("int",9),
         ("float",9.0)}
 print(values)
