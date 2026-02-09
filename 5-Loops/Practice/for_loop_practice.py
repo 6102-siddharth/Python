@@ -38,8 +38,21 @@ for k in range(1,11):
 print("888888888888888888888888888888888888888888888888888888888888")
 
 
-# WAP to find the sum of first n numbers (using whiole)
+# WAP to find the sum of first n numbers (using while)
+num=int(input("Enter Number:"))
+sumn=0
+k=0
 
-
+while (k <= num):
+    sumn = sumn + k
+    k=k+1
+print("Sum of",num,"is=",sumn)
 
 # WAP to find the factorial of first n numbers( using for)
+
+numb=int(input("Enter number to find Factorial:"))
+fact=1
+
+for i in range(1, numb+1):
+    fact=fact* i
+print("Factorial of",numb,"is=",fact)
