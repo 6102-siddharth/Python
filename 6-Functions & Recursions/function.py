@@ -16,3 +16,21 @@ def avg_3nums(a,b,c):
 
 avg=avg_3nums(6,6,6)
 print("Average of given 3 numbers are",avg)
+
+# Build in Function Print() in Python 
+
+print("Siddharth","Vadgaonkar")
+
+print("Siddharth", end="$")
+print("Vadgaonkar")
+
+
+print("------------------------------------")
+
+# Default parameter in function in python
+
+def cal_multi(a=1,b=1):
+    return a*b
+
+cal=cal_multi(4,8)
+print(cal)
