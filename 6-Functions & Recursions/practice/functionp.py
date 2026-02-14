@@ -55,3 +55,14 @@ def Numbers(n):
     
 nums=int(input("Enter Number to see Even or Odd:"))
 Numbers(nums)
+
+
+
+
+# WAP to check Palindrome
+
+lists=input("Enter Number to see Palindrome:")
+if lists == lists[::-1]:
+    print("Is is Palindrome")
+else:
+    print("Is is not Palindrome")
