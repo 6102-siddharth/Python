@@ -58,11 +58,10 @@ Numbers(nums)
 
 
 
-
 # WAP to check Palindrome
 
-lists=input("Enter Number to see Palindrome:")
+lists=input("Enter string to see Palindrome or not=")
 if lists == lists[::-1]:
-    print("Is is Palindrome")
+    print("It is Palindrome")
 else:
-    print("Is is not Palindrome")
+    print("It is not Palindrome")
