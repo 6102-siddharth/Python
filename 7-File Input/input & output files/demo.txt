@@ -1,0 +1,3 @@
+Hello! this is a Text file
+where we are doing a read and write function 
+And I'm learning Python by own
